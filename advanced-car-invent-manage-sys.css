@@ -1,0 +1,123 @@
+/* I chose a blue color scheme with a splash of red, and I thought a more modern font would look good with this theme.
+   The border around the form section provides some structure and sections part of the page to make for a more professional look.
+   I used different colors for the buttons and their border colors to make each of them stand out in different ways. Centering
+   all of the content makes it more visually appealing and professional, as do the zoom effects on the pictures. */
+
+
+
+* {
+    color: #100F39;
+}
+
+body {
+    background-color: #a8fcfc;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 40px;
+}
+
+#fieldset-1 {
+    border: solid #100F39 2px;
+    /* margin: 10px 520px; */
+    padding: 5px 0px 5px 5px;
+    margin: auto;
+    max-width: 350px;
+}
+
+#fieldset-2 {
+    border: none;
+}
+
+input {
+    background-color: #F9FBFB;
+    border: solid #100F39 1px;
+}
+
+#submit {
+    background-color: #1b1a4f;
+    color: #F9FBFB;
+    border: solid #24697E 2px;
+    margin-top: 2px;
+    margin-bottom: 12px;
+    padding: 5px 8px;
+}
+
+#total {
+    background-color: #E40E4E;
+    color: #F9FBFB;
+    border: solid #5E1F39 2px;
+    margin-top: 25px;
+    padding: 5px 8px;
+}
+
+#sort {
+    background-color: #8FB2BD;
+    border: solid #A11744 2px;
+}
+
+#average {
+    background-color: #24697E;
+    color: #F9FBFB;
+    border: solid #100F39 2px;
+}
+
+#filter-cap {
+    margin-top: 35px;
+    font-weight: bold;
+}
+
+.check {
+    margin-left: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+.list-items {
+    list-style: none;
+    margin-right: 45px;
+    padding: 12px;
+}
+
+.new-list {
+    list-style: none;
+    margin-right: 45px;
+    padding: 12px;
+}
+
+/* source used for img zoom: https://code-boxx.com/image-zoom-css-javascript/ */
+img {
+    width: 250px;
+    height: auto;
+    margin: 15px;
+    transition: transform ease-in-out 0.3s;
+}
+
+img:hover {
+    transform: scale(1.2);
+}
+
+#total-price-id {
+    margin-top: 5px;
+}
+
+.placeholder {
+    margin: 2px;
+    padding: 5px;
+}
+
+#highest {
+    margin: 10px;
+}
+
+button {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 5px;
+    padding: 3px;
+}
